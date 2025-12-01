@@ -2,9 +2,9 @@ import os
 import streamlit as st
 import pandas as pd
 import sqlite3
-
+from dotenv import load_dotenv
 from groq import Groq
-
+load_dotenv()
 from mini_project2 import create_connection, ex1, ex2, ex3  # you can add more ex* if you want
 
 # --- CONFIG ---
